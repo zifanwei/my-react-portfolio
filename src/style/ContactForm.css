@@ -63,25 +63,19 @@
 }
 
 .submit-button {
-    padding: 10px 3px;
     background-color: var(--tertiary-colour-bottomn);
     color: var(--primary-colour);
     border: var(--tertiary-colour-bottomn);
-    border-radius: 7px;
     border-style: solid;
     border-width: 2px;
     cursor: pointer;
     font-size: 17px;
-    transition: background-color 0.3s;
-    width: 70px;
 }
 
 .submit-button:disabled {
     background-color: var(--disabled);
     color: var(--secondary-colour);
     border: var(--disabled);
-    border-style: solid;
-    border-width: 2px;
 }
 
 .submit-button:hover:not(:disabled) {
