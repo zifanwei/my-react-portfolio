@@ -83,3 +83,14 @@
 .copy-btn:hover {
   background-color: var(--highlight-gray);
 }
+
+@media (max-width: 1300px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 100vw;
+  }
+}

@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    padding: 0 60px;
+    padding: 0 80px;
+    flex-direction: row;
 }
 
 .left {
@@ -31,7 +32,6 @@
 .intro p {
     font-size: 14px;
     padding: 25px 0;
-    line-height: 150%;
 }
 
 .right {
@@ -60,9 +60,38 @@
     border-color: var(--tertiary-colour);
 }
 
-
 .lets-talk-btn:hover {
     border-color: var(--tertiary-colour);
     background-color: var(--tertiary-colour);
     color: var(--primary-colour);
+}
+
+@media (max-width: 1000px) {
+    .intro-page {
+        flex-direction: column-reverse; 
+        padding: 60px 30px;
+    }
+    
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        padding: 30px 0;
+        width: 60%;
+        max-width: 550px;
+        min-width: 120px;
+    }
+
+    .intro h1 {
+        font-size: 40px; 
+    }
+
+    .intro p {
+        font-size: 12px;
+    }
+
+    .my-img {
+        max-width: 80%; 
+    }
 }

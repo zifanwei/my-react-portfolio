@@ -27,3 +27,19 @@ button {
 button:focus {
   outline: none;
 }
+
+p {
+  padding: 10px 0;
+  line-height: 160%;
+}
+
+h3 {
+  padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+  p {
+    padding: 0;
+    line-height: 120%;
+  }
+}
