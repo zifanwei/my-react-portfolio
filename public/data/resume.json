@@ -1,0 +1,290 @@
+{
+    "summary": "Motivated Full Stack Developer with 7 years of coding experience and over 2 years of combined industry experience in Full Stack Development, Solution Design and Data Analysis. Possesses strong problem-solving and technical skills, excelling in both independent and collaborative environments, with a commitment to continuous learning and growth. Seeking a role in an environment where my skills can be further developed while providing mutual benefit to the employer.",
+    "work-experience": [
+        {
+            "job-title": "Solution Designer",
+            "time-period": "May 2023 - Jan 2024",
+            "company": "Huawei Technologies",
+            "summary": "Design Solutions that solve problems for customers.",
+            "detail": [
+                "Developed Python-based tools to replace Excel for data analysis. Used Pandas, Numpy, and Seaborn to streamline complex data processing, generated statistics and visualisations to present insights into the current network situation and identified possible site locations. ",
+                "As a Solution Engineer, responsible for the solution design, requirement analysis and project coordination for the Dynamic Spectrum Sharing (DSS) feature to improve the network experience for customers in Thailand and Indonesia. I have aligned technical details and assessed solution feasibility with other Solution Engineers and leaderships, discussed and refined the design with the development team. The features all successfully went online."
+            ]
+        },
+        {
+            "job-title": "Software Engineer",
+            "time-period": "Dec 2021 - May 2023",
+            "company": "Huawei Technologies",
+            "summary": "Backend Web Developer worked in a team of 20, proficient in Java, Spring Boot, Maven and PostgreSQL, delivering web applications for industrial use.",
+            "detail": [
+                "Worked in a team of 20, developed and maintained a web application to support network design and planning for Huawei, utilised microservices architecture with RESTful APIs to facilitate communication between services.",
+                "As a Backend Developer, proficiently used Java, Spring Boot, Maven, and PostgreSQL, with experience in Redis. Took on front-end development tasks, proficient in JavaScript, CSS and Vue.js.",
+                "Demonstrated strong proficiency in the Agile development lifecycle by effectively participating in scrum meetings, managing tasks, prioritising work, and ensuring timely delivery.",
+                "Strong team player, worked closely with Business Analysts, Test Engineers and Frontend Developers to align requirement and implementation details, ensuring efficient and timely project delivery. ",
+                "Participated in architecture design, including requirement analysis, system design, and performance optimisation.",
+                "As a code committer in Huawei's internal Git platform, ensured all merged code adhered to best practices, and met security standards while giving helpful and constructive comments when edits were needed."
+            ]
+        },
+        {
+            "job-title": "Teaching Assistant",
+            "time-period": "Sep 2019 - Dec 2019",
+            "company": "Queen Mary University of London",
+            "summary": "Support the learning of students during lectures and lab sessions.",
+            "detail": [
+                "Provided timely support to students during weekly laboratory sessions and lectures for 2 Computer Science modules: Algorithms and Data Structures, and Logics and Discrete Structures.",
+                "Communicated effectively with professors and students to identify learning needs, enhanced the learning experience for beginners by developing supplementary materials."
+            ]
+        }
+    ],
+    "education-experience": [
+        {
+            "degree": "MSc Artificial Intelligence",
+            "university": "University of St Andrews",
+            "time-period": "Sep 2020 - Sep 2021",
+            "grade": "Distinction (Name on Dean's List)",
+            "modules": "Artificial Intelligence, Machine Learning, Information Visualisation, OOP, Computer Security"
+        },
+        {
+            "degree": "BSc Computer Science",
+            "university": "Queen Mary University of London",
+            "time-period": "Sep 2017 - Jul 2020",
+            "grade": "First Class Honours",
+            "modules": "Software Engineering, Web Development, Database Systems, Graphical User Interface, Interaction Design"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Weather Forecasting Web App",
+            "company": "Personal Project",
+            "time-period": "Jan 2024 - Feb 2024",
+            "github": "https://github.com/example/weather-app",
+            "live-demo": "https://weatherapp.example.com",
+            "technologies": "React, Node.js, Express, OpenWeatherMap API",
+            "summary": "A web app providing real-time weather forecasts based on user location.",
+            "img-url": "1.png",
+            "detail": [
+                "Used React to create dynamic UI components and fetch API data.",
+                "Integrated OpenWeatherMap API to display current and forecasted weather.",
+                "Styled the app with responsive design using CSS Flexbox and Grid."
+            ]
+        },
+        {
+            "name": "E-commerce Platform",
+            "company": "Freelance",
+            "time-period": "Nov 2023 - Dec 2023",
+            "github": "https://github.com/example/e-commerce-platform",
+            "live-demo": "https://ecommerce.example.com",
+            "technologies": "Vue.js, Django, PostgreSQL",
+            "summary": "An e-commerce website for selling electronics and gadgets.",
+            "img-url": "2.png",
+            "detail": [
+                "Developed a secure user authentication system with JWT.",
+                "Designed and implemented product catalog with search and filter features.",
+                "Deployed the platform using Docker and Nginx."
+            ]
+        },
+        {
+            "name": "Portfolio Website",
+            "company": "Personal Project",
+            "time-period": "Oct 2023",
+            "github": "https://github.com/example/portfolio",
+            "live-demo": "https://portfolio.example.com",
+            "technologies": "HTML, CSS, JavaScript, GitHub Pages",
+            "summary": "Personal portfolio website showcasing skills and projects.",
+            "img-url": "3.png",
+            "detail": [
+                "Used HTML and CSS to design a responsive portfolio layout.",
+                "Included dynamic elements using vanilla JavaScript.",
+                "Hosted the site on GitHub Pages."
+            ]
+        },
+        {
+            "name": "Task Management System",
+            "company": "Group Project",
+            "time-period": "Sep 2023 - Oct 2023",
+            "github": "https://github.com/example/task-manager",
+            "live-demo": "https://taskmanager.example.com",
+            "technologies": "Angular, Firebase, Material UI",
+            "summary": "A task management app for organizing daily work and personal tasks.",
+            "img-url": "4.png",
+            "detail": [
+                "Implemented task creation, deletion, and updating features.",
+                "Integrated Firebase for real-time data syncing.",
+                "Used Material UI for clean and user-friendly design."
+            ]
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Foundations of User Experience (UX) Design",
+            "institution": "Google",
+            "issued-date": "Mar 2024",
+            "url": "https://www.coursera.org/account/accomplishments/records/UGDD8WAG7LZT"
+        },
+        {
+            "name": "Start the UX Design Process: Empathise, Define, and Ideate",
+            "institution": "Google",
+            "issued-date": "Mar 2024",
+            "url": "https://www.coursera.org/account/accomplishments/records/ZALE74FSARZL"
+        }
+    ],
+    "hobbies": [
+        "Music",
+        "Piano",
+        "Photography",
+        "Travel",
+        "Games",
+        "Drawing"
+    ],
+    "skills": {
+        "Programming Languages": [
+            "Java",
+            "Python",
+            "JavaScript",
+            "CSS",
+            "HTML",
+            "SQL"
+        ],
+        "front-end": [
+            "React.js",
+            "Vue.js",
+            "Three.js",
+            "Bootstramp"
+        ],
+        "back-end": [
+            "Spring Boot",
+            "PostgreSQL",
+            "Maven",
+            "Redis",
+            "Django"
+        ],
+        "data": [
+            "Pandas",
+            "Numpy",
+            "Matplotlib",
+            "Seaborn",
+            "Tableau",
+            "d3.js"
+        ],
+        "ml": [
+            "scikit-learn",
+            "Tensorflow",
+            "pytorch"
+        ],
+        "os": [
+            "MacOS",
+            "Windows",
+            "Linux"
+        ],
+        "skills-list": [
+            {
+                "name": "Java",
+                "level": 10
+            },
+            {
+                "name": "Python",
+                "level": 10
+            },
+            {
+                "name": "JavaScript",
+                "level": 10
+            },
+            {
+                "name": "CSS",
+                "level": 10
+            },
+            {
+                "name": "HTML",
+                "level": 5
+            },
+            {
+                "name": "SQL",
+                "level": 5
+            },
+            {
+                "name": "React.js",
+                "level": 10
+            },
+            {
+                "name": "Vue.js",
+                "level": 3
+            },
+            {
+                "name": "Three.js",
+                "level": 2
+            },
+            {
+                "name": "Bootstramp",
+                "level": 2
+            },
+            {
+                "name": "Spring Boot",
+                "level": 10
+            },
+            {
+                "name": "PostgreSQL",
+                "level": 7
+            },
+            {
+                "name": "Maven",
+                "level": 5
+            },
+            {
+                "name": "Redis",
+                "level": 3
+            },
+            {
+                "name": "Django",
+                "level": 10
+            },
+            {
+                "name": "Pandas",
+                "level": 10
+            },
+            {
+                "name": "Numpy",
+                "level":5
+            },
+            {
+                "name": "Matplotlib",
+                "level": 6
+            },
+            {
+                "name": "Seaborn",
+                "level": 7
+            },
+            {
+                "name": "Tableau",
+                "level": 5
+            },
+            {
+                "name": "d3.js",
+                "level": 4
+            },
+            {
+                "name": "scikit-learn",
+                "level": 10
+            },
+            {
+                "name": "Tensorflow",
+                "level": 5
+            },
+            {
+                "name": "pytorch",
+                "level": 5
+            },
+            {
+                "name": "MacOS",
+                "level": 10
+            },
+            {
+                "name": "Windows",
+                "level": 7
+            },
+            {
+                "name": "Linux",
+                "level": 4
+            }
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+.education-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 60px 40px;
+    justify-content: space-evenly;
+}
+
+.education-item {
+    width: 40%;
+    background-color: var(--primary-colour);
+    box-shadow: 0 4px 8px var(--item-box-shadow);
+    border-radius: 20px;
+    padding: 20px ;
+}
+
+h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}

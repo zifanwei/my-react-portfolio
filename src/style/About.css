@@ -1,0 +1,75 @@
+.about {
+    width: 100vw;
+}
+
+.intro-page {
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 60px;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.summary {
+    padding: 50px 100px;
+}
+
+.intro h1 {
+    margin-top: 30px;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.intro p {
+    font-size: 14px;
+    padding: 25px 0;
+}
+
+.right {
+    height: 100%;
+    width: 50%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight {
+    color: var(--tertiary-colour);
+}
+
+.my-img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.lets-talk-btn {
+    background-color: transparent;
+    color: var(--tertiary-colour);
+    font-size: 17px;
+    border: 2px;
+    border-color: var(--tertiary-colour);
+    border-style: solid;
+}
+
+.lets-talk-btn:focus {
+    outline: none;
+
+}
+
+.lets-talk-btn:hover {
+    border-color: var(--tertiary-colour);
+    background-color: var(--tertiary-colour);
+    color: var(--primary-colour);
+    border-color: var(--tertiary-colour);
+
+}

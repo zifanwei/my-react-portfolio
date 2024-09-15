@@ -1,0 +1,112 @@
+.contact-form-container {
+    margin: 70px 70px 70px 0 ;
+    padding: 0;
+    font-size: 17px;
+    min-width: 350px;
+    max-width: 80%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-name {
+    width: 30%;
+    min-width: 90px;
+}
+
+.contact-email {
+    width: 60%;
+    min-width: 170px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.from_email {
+    width: 100%;
+}
+
+.from_name {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background-color: var(--primary-colour);
+    color: var(--secondary-colour);
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 170px;
+    min-height: 170px;
+}
+
+.submit-button {
+    padding: 10px 3px;
+    background-color: var(--tertiary-colour-bottomn);
+    color: var(--primary-colour);
+    border: var(--tertiary-colour-bottomn);
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: background-color 0.3s;
+    width: 70px;
+}
+
+.submit-button:disabled {
+    background-color: var(--disabled);
+    color: var(--secondary-colour);
+    border: var(--disabled);
+    border-style: solid;
+    border-width: 2px;
+}
+
+.submit-button:hover:not(:disabled) {
+    background-color: transparent;
+    border: var(--tertiary-colour-bottomn);
+    border-style: solid;
+    border-width: 2px;
+    color: var(--tertiary-colour-bottomn);
+}
+
+.form-message {
+    margin:0;
+}
+
+.form-message.success {
+    color: var(--tertiary-colour-bottomn)
+}
+
+.form-message.error {
+    color: var(--danger);
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
