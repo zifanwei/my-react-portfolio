@@ -13,11 +13,11 @@ const Contact = () => {
 
   return (
     <div className="contact-section">
-        <div className='contact-left'>
+        <div className='contact-form'>
+          <ContactForm />
+        </div>
+        <div className='contact-detail'>
           <div className='contact-methods'>
-            <div className='profile-title'>
-              <h1>Get in touch <span className="arrow">➔</span></h1>
-            </div>
             {data && data['contact-info'].map((contact, index) => (
               <div key={index} className='contact-info'>
                 <div className='info-title'>{contact.name}</div>
@@ -43,9 +43,6 @@ const Contact = () => {
               ))}
             </div>
           </div>
-        </div>
-        <div className='contact-right'>
-          <ContactForm />
         </div>
     </div>
   );
