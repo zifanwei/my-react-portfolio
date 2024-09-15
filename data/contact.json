@@ -1,0 +1,38 @@
+{
+    "contact-info": [
+        {
+            "name":"Email",
+            "value":"wendywzf993@gmail.com"
+        },
+        {
+            "name":"Mobile",
+            "value":"+86 15633232298"
+        },
+        {
+            "name":"Skype",
+            "value":"live:wendywzf993"
+        }
+    ],
+    "social": [
+        {
+            "name":"LinkedIn",
+            "value":"https://www.linkedin.com/in/zifan-wei-79b585173/",
+            "icon": "🔗"
+        },
+        {
+            "name":"Github",
+            "value":"https://github.com/zifanwei",
+            "icon": "🐙"
+        },
+        {
+            "name":"Kaggle",
+            "value":"https://www.kaggle.com/zifanwei",
+            "icon": "📊"
+        },
+        {
+            "name":"Youtube",
+            "value":"https://www.youtube.com/channel/UCRlV1tSJQNTTCHKwNRfQkiw",
+            "icon": "🎞️"
+        }
+    ]
+}
