@@ -2,7 +2,7 @@
     margin: 0;
     font-size: 17px;
     border: 2px solid var(--tertiary-colour-bottomn);
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .contact-form {
@@ -137,3 +137,25 @@
         margin-bottom: 30px;
     }
   }
+
+  @media (max-width: 440px) {
+    .from_email {
+        width: 200px;
+    }
+    
+    .from_name {
+        width: 200px;
+    }
+
+    .message {
+        width: 200px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .contact-form {
+        margin: 30px 5px;
+    }
+}

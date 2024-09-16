@@ -93,6 +93,12 @@
 
     .my-img {
         max-width: 80%; 
-        min-width: 100px;
+        min-width: 120px;
+    }
+
+    @media (max-width: 400px) {
+        .intro h1 {
+            font-size: 30px; 
+        }
     }
 }

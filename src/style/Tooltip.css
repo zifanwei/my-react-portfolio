@@ -9,7 +9,7 @@
     color: var(--secondary-colour);
     text-align: left;
     font-size: 11px;
-    padding: 3px 5px;
+    padding: 5px 7px;
     border-radius: 10px;
     box-shadow: 0px 2px 8px var(--tooltip-box-shadow);
     position: fixed; 

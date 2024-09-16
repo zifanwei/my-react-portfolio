@@ -8,7 +8,7 @@
     width: 470px;
     background-color: var(--primary-colour);
     box-shadow: 0 4px 8px var(--item-box-shadow);
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 20px;
     margin: 20px;
 }
@@ -47,5 +47,11 @@ p {
     .education-item {
         width: 400px;
         margin:10px;
+    }  
+}
+
+@media (max-width: 440px) {
+    .education-item {
+        width: 300px;
     }  
 }

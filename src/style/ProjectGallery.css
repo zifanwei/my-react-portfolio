@@ -9,7 +9,7 @@
 .project-card {
   width: 500px;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 4px 8px var(--item-box-shadow);
   background-color: var(--primary-colour);
@@ -49,4 +49,16 @@
 
 .project-details li {
   margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .project-gallery {
+    padding: 20px;
+  }  
+}
+
+@media (max-width: 440px) {
+  .project-gallery {
+    padding: 0 10px;
+  }  
 }

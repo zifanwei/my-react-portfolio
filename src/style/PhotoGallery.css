@@ -46,3 +46,25 @@
 .photo-caption p {
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .photo-gallery {
+    padding: 0 20px;
+  }  
+
+  .photo-item {
+    width: 230px;
+    height: 230px;
+  }
+  
+}
+
+@media (max-width: 440px) {
+  .photo-gallery {
+    padding: 0 10px;
+  }  
+  .photo-item {
+    width: 160px;
+    height: 160px;
+  }
+}
