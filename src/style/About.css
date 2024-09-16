@@ -93,5 +93,6 @@
 
     .my-img {
         max-width: 80%; 
+        min-width: 100px;
     }
 }

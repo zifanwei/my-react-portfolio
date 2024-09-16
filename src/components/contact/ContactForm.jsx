@@ -1,44 +1,45 @@
 import React, { useState } from 'react';
 import '../../style/ContactForm.css';
 import emailjs from '@emailjs/browser';
-import * as EmailConfig from '../constants/EmailConfig';
 
 const ContactForm = () => {
-
-
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const [stateMessage, setStateMessage] = useState(null);
+    const [buttonText, setButtonText] = useState('Send');
+
     const sendEmail = (e) => {
         e.persist();
         e.preventDefault();
         setIsSubmitting(true);
+        setButtonText('Sending...');
+
         emailjs
             .sendForm(
-                EmailConfig.REACT_APP_SERVICE_ID,
-                EmailConfig.REACT_APP_TEMPLATE_ID,
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
                 e.target,
-                EmailConfig.REACT_APP_PUBLIC_KEY
+                process.env.REACT_APP_PUBLIC_KEY
             )
             .then(
                 (result) => {
-                    setStateMessage('Message sent!');
-                    setIsSubmitting(false);
+                    setButtonText('Message Sent!');
                     setTimeout(() => {
-                        setStateMessage(null);
-                    }, 5000); // hide message after 5 seconds
+                        setButtonText('Send');
+                        setIsSubmitting(false);
+                    }, 2000);
                 },
                 (error) => {
-                    setStateMessage('Something went wrong, please try again later');
-                    setIsSubmitting(false);
+                    setButtonText('Error! Try Again');
                     setTimeout(() => {
-                        setStateMessage(null);
-                    }, 5000); // hide message after 5 seconds
+                        setButtonText('Send');
+                        setIsSubmitting(false);
+                    }, 2000);
                 }
             );
 
         // Clears the form after sending the email
         e.target.reset();
     };
+
     return (
         <div className="contact-form-container">
             <form className='contact-form' onSubmit={sendEmail}>
@@ -59,12 +60,12 @@ const ContactForm = () => {
                 </div>
                 <div className="form-actions">
                     <button type="submit" disabled={isSubmitting} className="submit-button">
-                        {isSubmitting ? 'Sending...' : 'Send'}
+                        {buttonText}
                     </button>
-                    {stateMessage && <p className={`form-message ${stateMessage.includes('Sent') ? 'success' : 'error'}`}>{stateMessage}</p>}
                 </div>
             </form>
         </div>
     );
 };
+
 export default ContactForm;
