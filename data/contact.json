@@ -2,37 +2,47 @@
     "contact-info": [
         {
             "name":"Email",
-            "value":"wendywzf993@gmail.com"
+            "value":"wendywzf993@gmail.com",
+            "icon": "/icon/icons8-email-48.png",
+            "darkIcon": "/icon/icons8-email-48-dark.png"
         },
         {
             "name":"Mobile",
-            "value":"+86 15633232298"
+            "value":"+86 15633232298",
+            "icon":"/icon/icons8-phone-50.png",
+            "darkIcon": "/icon/icons8-phone-50-dark.png"
         },
         {
             "name":"Skype",
-            "value":"live:wendywzf993"
+            "value":"live:wendywzf993",
+            "icon":"/icon/icons8-skype-50.png",
+            "darkIcon": "/icon/icons8-skype-50-dark.png"
         }
     ],
     "social": [
         {
             "name":"LinkedIn",
             "value":"https://www.linkedin.com/in/zifan-wei-79b585173/",
-            "icon": "🔗"
+            "icon": "/icon/icons8-linkedin-50.png",
+            "darkIcon": "/icon/icons8-linkedin-50-dark.png"
         },
         {
             "name":"Github",
             "value":"https://github.com/zifanwei",
-            "icon": "🐙"
+            "icon": "/icon/icons8-github-64.png",
+            "darkIcon": "/icon/icons8-github-64-dark.png"
         },
         {
             "name":"Kaggle",
             "value":"https://www.kaggle.com/zifanwei",
-            "icon": "📊"
+            "icon": "/icon/icons8-kaggle-32.png",
+            "darkIcon": "/icon/icons8-kaggle-32-dark.png"
         },
         {
             "name":"Youtube",
             "value":"https://www.youtube.com/channel/UCRlV1tSJQNTTCHKwNRfQkiw",
-            "icon": "🎞️"
+            "icon": "/icon/icons8-youtube-50.png",
+            "darkIcon": "/icon/icons8-youtube-50-dark.png"
         }
     ]
 }
