@@ -14,17 +14,6 @@
     padding: 30px 20px;
 }
 
-.timeline-item::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    transform: translateX(-50%);
-    z-index: -1;
-}
-
 .timeline-date {
     text-align: left;
     padding: 0 0 10px 20px;
