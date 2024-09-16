@@ -1,6 +1,6 @@
 import React from 'react'; 
 import '../../style/About.css';
-import myImg from "../../assets/my-photo-with-bg.png"
+import myImg from "../../assets/my-photo.png"
 import useFetchData from "../hooks/useFetchData"
 
 const About = () => {

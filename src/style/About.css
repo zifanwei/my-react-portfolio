@@ -51,6 +51,8 @@
     max-width: 70%;
     height: auto;
     border-radius: 50%;
+    /* background-color: #ffffff53; */
+    /* transition: transform 0.3s linear; */
 }
 
 .lets-talk-btn {
