@@ -15,7 +15,7 @@ const Education = () => {
           <div className='education-content'>
             <h3>🎓 {edu.degree}</h3>
             <p>
-              <img src={process.env.PUBLIC_URL + "/icon/icons8-university-48.png"} alt="" class="edu-icon"></img>
+              <img src={process.env.PUBLIC_URL + "/icon/icons8-university-48.png"} alt="" class="img-icon"></img>
             {edu.university}</p>
             <ul>
               <li>

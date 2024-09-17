@@ -27,6 +27,7 @@ const ContactDetail = () => {
                         <img 
                             src={process.env.PUBLIC_URL + (isDarkMode ? contact.darkIcon : contact.icon)} 
                             alt=""
+                            className='img-icon'
                         />
                         <div className='info-title'>{contact.name}</div>
                         <div className="info-wrapper">
@@ -47,6 +48,7 @@ const ContactDetail = () => {
                         <img 
                             src={process.env.PUBLIC_URL + (isDarkMode ? social.darkIcon : social.icon)} 
                             alt=""
+                            className='img-icon'
                         />
                         <a href={social.value} target="_blank" rel="noopener noreferrer">
                             {social.name}

@@ -1,16 +1,14 @@
 .education-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 55px;
 }
 
 .education-item {
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 20px 40px;
-    align-items: center;
-
 }
 
 .education-time {
@@ -25,18 +23,12 @@
     background-color: var(--primary-colour);
     box-shadow: 0 4px 8px var(--item-box-shadow);
     border-radius: 30px;
-    padding: 5px 25px;
-    width: 460px;
+    padding: 5px 35px;
+    width: 430px;
     height: 200px;
-}
-
-.edu-icon {
-    width: 20px;
-    height: 20px;
-}
-
-.education-content h3 {
-    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .education-content p {
@@ -48,21 +40,28 @@
 .education-content ul {
     list-style-type: none;
     padding-left: 0px;
-    margin-top: 0;
-}
-
-.education-content ul li {
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media (max-width: 1300px) {
     .education-content {
-        width: 310px;
+        width: 290px;
+    }
+    .education-container {
+        gap: 20px;
     }
 }
 
 @media (max-width: 768px) {
     .education-content {
         width: 220px;
+        height: 220px;
+        padding: 5px 20px;
+    }
+    .education-container {
+        gap: 10px;
     }
 }

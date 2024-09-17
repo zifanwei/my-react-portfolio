@@ -20,12 +20,6 @@
     gap: 5px;
 }
 
-.contact-info img,
-.social-icon img {
-    width: 17px;
-    height: 17px;
-}
-
 .social-icons a {
     text-decoration: none;
     color: var(--secondary-colour);

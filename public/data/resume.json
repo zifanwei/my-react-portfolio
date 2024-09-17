@@ -138,45 +138,6 @@
     ],
     "skills": {
         "Programming Languages": [
-            "Java",
-            "Python",
-            "JavaScript",
-            "CSS",
-            "HTML",
-            "SQL"
-        ],
-        "front-end": [
-            "React.js",
-            "Vue.js",
-            "Three.js",
-            "Bootstramp"
-        ],
-        "back-end": [
-            "Spring Boot",
-            "PostgreSQL",
-            "Maven",
-            "Redis",
-            "Django"
-        ],
-        "data": [
-            "Pandas",
-            "Numpy",
-            "Matplotlib",
-            "Seaborn",
-            "Tableau",
-            "d3.js"
-        ],
-        "ml": [
-            "scikit-learn",
-            "Tensorflow",
-            "pytorch"
-        ],
-        "os": [
-            "MacOS",
-            "Windows",
-            "Linux"
-        ],
-        "skills-list": [
             {
                 "name": "Java",
                 "level": 10
@@ -198,9 +159,11 @@
                 "level": 5
             },
             {
-                "name": "SQL",
+                "name": "SQL/PostgreSQL",
                 "level": 5
-            },
+            }
+        ],
+        "front-end": [
             {
                 "name": "React.js",
                 "level": 10
@@ -208,22 +171,12 @@
             {
                 "name": "Vue.js",
                 "level": 3
-            },
-            {
-                "name": "Three.js",
-                "level": 2
-            },
-            {
-                "name": "Bootstramp",
-                "level": 2
-            },
+            }
+        ],
+        "back-end": [
             {
                 "name": "Spring Boot",
                 "level": 10
-            },
-            {
-                "name": "PostgreSQL",
-                "level": 7
             },
             {
                 "name": "Maven",
@@ -236,14 +189,16 @@
             {
                 "name": "Django",
                 "level": 10
-            },
+            }
+        ],
+        "data": [
             {
                 "name": "Pandas",
                 "level": 10
             },
             {
                 "name": "Numpy",
-                "level":5
+                "level": 5
             },
             {
                 "name": "Matplotlib",
@@ -260,7 +215,9 @@
             {
                 "name": "d3.js",
                 "level": 4
-            },
+            }
+        ],
+        "ml": [
             {
                 "name": "scikit-learn",
                 "level": 10
@@ -272,7 +229,9 @@
             {
                 "name": "pytorch",
                 "level": 5
-            },
+            }
+        ],
+        "os": [
             {
                 "name": "MacOS",
                 "level": 10
