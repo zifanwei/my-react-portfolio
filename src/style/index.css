@@ -39,6 +39,12 @@ h2 {
   margin: 0;
 }
 
+.card-with-shadow {
+  border-radius: 30px;
+  background-color: var(--primary-colour);
+  box-shadow: 0 4px 8px var(--item-box-shadow);
+}
+
 .img-icon {
   width: 20px;
   height: 20px;

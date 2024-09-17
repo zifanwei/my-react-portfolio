@@ -22,11 +22,8 @@
   
 .timeline-content {
     padding: 20px;
-    box-shadow: 0 4px 8px var(--item-box-shadow);
-    background-color: var(--primary-colour);
     text-align: left;
     position: relative;
-    border-radius: 30px;
     width: 1020px;
 }
 

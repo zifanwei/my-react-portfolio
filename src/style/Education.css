@@ -21,9 +21,6 @@
 }
 
 .education-content {
-    background-color: var(--primary-colour);
-    box-shadow: 0 4px 8px var(--item-box-shadow);
-    border-radius: 30px;
     padding: 5px 35px;
     width: 430px;
     height: 200px;

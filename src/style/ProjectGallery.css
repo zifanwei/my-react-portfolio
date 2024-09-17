@@ -8,11 +8,7 @@
 
 .project-card {
   width: 500px;
-  border: none;
-  border-radius: 30px;
   overflow: hidden;
-  box-shadow: 0 4px 8px var(--item-box-shadow);
-  background-color: var(--primary-colour);
 }
 
 .project-img {

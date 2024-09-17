@@ -8,7 +8,7 @@ const ProjectGallery = () => {
   return (
     <div className="project-gallery">
       {data && data.projects && data.projects.map((project, index) => (
-        <div key={index} className="project-card">
+        <div key={index} className="project-card card-with-shadow">
           <img
             src={process.env.PUBLIC_URL +`/project/${project['img-url']}`}
             alt={project.name}

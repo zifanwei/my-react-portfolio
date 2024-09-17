@@ -33,7 +33,7 @@ const Skills = () => {
                     <h3>Technical Skills</h3>
                     <div className="technical-skills">
                         {skillSections.map(([category, skills, index]) => (
-                            <div className='skill-category' key={index}>
+                            <div className='skill-category card-with-shadow' key={index}>
                                 <h4>{category}</h4>
                                 <div className='technical-skill-content'>
                                     {skills.map((skillItem, idx) => (

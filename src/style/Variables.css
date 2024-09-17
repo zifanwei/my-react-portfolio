@@ -5,13 +5,14 @@
   --background-colour-gradient: linear-gradient(135deg, #ffffff, #fee8f3, hsl(219, 100%, 89%), #fffacf);
   --menu-bg-colour: linear-gradient(to bottom, rgba(255, 255, 255), #ffffff75);
   --menu-box-shadow: rgba(255, 255, 255, 0.4);
-  --item-box-shadow: #f5f5f581;
+  --item-box-shadow: #76767661;
   --highlight-gray: #afafaf53;
   --danger: #df1919;
   --disabled: #d7d7d7;
   --photo-overlay: rgba(255, 255, 255, 0.7);
   --tooltip-bg: #f8f8f8d2;
   --tooltip-box-shadow: rgba(121, 121, 121, 0.1);
+  --contact-form-background: linear-gradient(160deg, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.1));
 }
 
 /* Dark mode variables */
@@ -23,13 +24,13 @@
     --background-colour-gradient: linear-gradient(135deg, #595454, #684f59, hsl(230, 12%, 37%), #4b4f42);
     --menu-bg-colour: linear-gradient(to bottom, rgb(55, 52, 52), #3f3a3a75);
     --menu-box-shadow: rgba(53, 53, 53, 0.4);
-    --item-box-shadow: #11111181;
+    --item-box-shadow: rgba(0, 0, 0, 0.4);
     --highlight-gray: #e5e5e574;
     --danger: #ff7373;
     --disabled: #606060;
     --photo-overlay: rgba(49, 46, 46, 0.7);
     --tooltip-bg: rgba(0, 0, 0, 0.725);
     --tooltip-box-shadow: rgba(54, 51, 51, 0.1);
-
+    --contact-form-background: linear-gradient(45deg, rgba(42, 39, 39, 0.4),rgba(43, 39, 39, 0.1));
   }
 }

@@ -9,7 +9,7 @@ const Contact = () => {
         <div className='contact-form'>
           <ContactForm />
         </div>
-        <div className='contact-detail'>
+        <div className='card-with-shadow'>
           <ContactDetail />
         </div>
     </div>

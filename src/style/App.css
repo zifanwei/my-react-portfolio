@@ -51,6 +51,7 @@ html {
     height: 50px;
     color: var(--secondary-colour);
     font-size: 12px;
+    margin-top: 40px;
 }
 
 .highlight {
