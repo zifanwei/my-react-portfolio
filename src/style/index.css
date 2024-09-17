@@ -44,6 +44,10 @@ h2 {
   background-color: var(--primary-colour);
 }
 
+a {
+  color: var(--tertiary-colour);
+}
+
 .card-with-shadow, .card-2 {
   border-radius: 30px;
   box-shadow: 0 4px 8px var(--item-box-shadow);

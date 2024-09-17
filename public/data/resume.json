@@ -54,62 +54,63 @@
     ],
     "projects": [
         {
-            "name": "Weather Forecasting Web App",
-            "company": "Personal Project",
-            "time-period": "Jan 2024 - Feb 2024",
-            "github": "https://github.com/example/weather-app",
-            "live-demo": "https://weatherapp.example.com",
-            "technologies": "React, Node.js, Express, OpenWeatherMap API",
-            "summary": "A web app providing real-time weather forecasts based on user location.",
+            "name": "iDesigner Network Planning Web Application",
+            "company": "Huawei Technologies",
+            "time-period": "May 2022 - May 2023",
+            "github": "",
+            "live-demo": "",
+            "technologies": "Java, Spring Boot, Maven, PostgreSQL, Redis, JavaScript, Vue.js",
+            "summary": "A web application that generates network diagrams for devices, calculates configurations and exports detailed information into Excel, supporting Huawei's core business in network planning.",
             "img-url": "1.png",
             "detail": [
-                "Used React to create dynamic UI components and fetch API data.",
-                "Integrated OpenWeatherMap API to display current and forecasted weather.",
-                "Styled the app with responsive design using CSS Flexbox and Grid."
+                "Led the development of three key microservices, handling form data processing, IP algorithms, and Excel imports/exports, ensuring functionality aligned with business needs.",
+                "Enhanced performance by integrating multithreading and Redis caching, reducing query response times by 30% and improving user experience.",
+                "Refactored code to adhere to SOLID principles, significantly improving maintainability and reducing development time by 50%."
             ]
         },
         {
-            "name": "E-commerce Platform",
-            "company": "Freelance",
-            "time-period": "Nov 2023 - Dec 2023",
-            "github": "https://github.com/example/e-commerce-platform",
-            "live-demo": "https://ecommerce.example.com",
-            "technologies": "Vue.js, Django, PostgreSQL",
-            "summary": "An e-commerce website for selling electronics and gadgets.",
+            "name": "Network Data Analysation",
+            "company": "Huawei Technologies",
+            "time-period": "Sep 2023",
+            "github": "",
+            "live-demo": "",
+            "technologies": "Python, Pandas, Numpy, Seaborn, Matplotlib, scikit-learn",
+            "summary": "Developed Python tools to automate network data analysis, optimised site selection and improved strategic planning",
             "img-url": "2.png",
             "detail": [
-                "Developed a secure user authentication system with JWT.",
-                "Designed and implemented product catalog with search and filter features.",
-                "Deployed the platform using Docker and Nginx."
+                "Created automated tools that processed network coverage and traffic data, identifying over 10 potential high-traffic site locations in rural China.",
+                "Streamlined analysis workflows, reducing data processing time by 70% through custom Python scripts.",
+                "Presented data-driven insights to leadership, leading to strategic decisions that improved sales performance."
             ]
         },
         {
             "name": "Portfolio Website",
             "company": "Personal Project",
-            "time-period": "Oct 2023",
-            "github": "https://github.com/example/portfolio",
-            "live-demo": "https://portfolio.example.com",
-            "technologies": "HTML, CSS, JavaScript, GitHub Pages",
-            "summary": "Personal portfolio website showcasing skills and projects.",
+            "time-period": "Sep 2024",
+            "github": "https://github.com/zifanwei/my-react-portfolio",
+            "live-demo": "https://zifanwei.github.io/my-react-portfolio",
+            "technologies": "React.js, HTML, CSS, JavaScript, GitHub Pages",
+            "summary": "Personal portfolio website using React.js.",
             "img-url": "3.png",
             "detail": [
-                "Used HTML and CSS to design a responsive portfolio layout.",
-                "Included dynamic elements using vanilla JavaScript.",
-                "Hosted the site on GitHub Pages."
+                "Designed and developed a responsive single-page application using React.js.",
+                "Implemented a clean, modern design with smooth animations for an engaging user experience.",
+                "Optimized performance and loading times by simplifying CSS and using lazy loading.",
+                "Deployed the website on GitHub Pages for public accessibility."
             ]
         },
         {
             "name": "Task Management System",
-            "company": "Group Project",
-            "time-period": "Sep 2023 - Oct 2023",
-            "github": "https://github.com/example/task-manager",
-            "live-demo": "https://taskmanager.example.com",
-            "technologies": "Angular, Firebase, Material UI",
-            "summary": "A task management app for organizing daily work and personal tasks.",
+            "company": "Personal Project",
+            "time-period": "Aug 2024 - present",
+            "github": "",
+            "live-demo": "",
+            "technologies": "Spring Boot, React.js, PostgreSQL, Java, JavaScript, CSS",
+            "summary": "A task management app for organsing personal and group tasks.",
             "img-url": "4.png",
             "detail": [
                 "Implemented task creation, deletion, and updating features.",
-                "Integrated Firebase for real-time data syncing.",
+                "Integrated PostgreSQL for real-time data syncing.",
                 "Used Material UI for clean and user-friendly design."
             ]
         }
@@ -127,14 +128,6 @@
             "issued-date": "Mar 2024",
             "url": "https://www.coursera.org/account/accomplishments/records/ZALE74FSARZL"
         }
-    ],
-    "hobbies": [
-        "Music",
-        "Piano",
-        "Photography",
-        "Travel",
-        "Games",
-        "Drawing"
     ],
     "skills": {
         "Programming Languages": [
@@ -252,49 +245,49 @@
     },
     "skillSummary": [
         {
-            "title":"Full-Stack Web Development",
-            "description":"Proficiently develop both Front-end and Back-end functionalities for web applications.",
+            "title": "Full-Stack Web Development",
+            "description": "Proficiently develop both Front-end and Back-end functionalities for web applications.",
             "icon": "/icon/web_dev.png"
         },
         {
-            "title":"UI/UX Design",
-            "description":"Empathise with users, design interfaces and workflows that ensure best user experience.",
+            "title": "UI/UX Design",
+            "description": "Empathise with users, design interfaces and workflows that ensure best user experience.",
             "icon": "/icon/ui_ux_design.png"
         },
         {
-            "title":"Creative Solutions",
-            "description":"Continuously learning of trending technologies and designs and apply them appropriately in projects.",
+            "title": "Creative Solutions",
+            "description": "Continuously learning of trending technologies and designs and apply them appropriately in projects.",
             "icon": "/icon/creativity.png"
         },
         {
-            "title":"Independent Problem Solving",
-            "description":"Strong problem-solving skills with a knack for finding optimised solutions in various situations.",
+            "title": "Independent Problem Solving",
+            "description": "Strong problem-solving skills with a knack for finding optimised solutions in various situations.",
             "icon": "/icon/problem_solving.png"
         },
         {
-            "title":"Supportive Team Member",
-            "description":"Active and supportive in collaborative environments, always willing to contribute ideas and effort.",
+            "title": "Supportive Team Member",
+            "description": "Active and supportive in collaborative environments, always willing to contribute ideas and effort.",
             "icon": "/icon/teamworking.png"
         },
         {
-            "title":"Effective Communicator",
-            "description":"Good at grasping key points in conversations and conveying messages clearly and concisely.",
+            "title": "Effective Communicator",
+            "description": "Good at grasping key points in conversations and conveying messages clearly and concisely.",
             "icon": "/icon/communication.png"
         }
     ],
     "languageSkills": [
         {
-            "language":"🇨🇳 Chinese (Mandarin)",
+            "language": "🇨🇳 Chinese (Mandarin)",
             "level": "Native Speaker",
             "description": "Proficient in reading, writing, listening, and speaking under academic and business situations."
         },
         {
-            "language":"🇬🇧 English",
+            "language": "🇬🇧 English",
             "level": "Fluent",
             "description": "Proficient in reading, writing, listening, and speaking under both academic and business situations."
         },
         {
-            "language":"🇳🇱 Dutch",
+            "language": "🇳🇱 Dutch",
             "level": "Beginner",
             "description": "Familiar with a few basic phrases and words, actively progressing in learning."
         }

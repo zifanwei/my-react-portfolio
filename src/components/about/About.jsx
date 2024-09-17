@@ -1,6 +1,8 @@
 import React from 'react'; 
 import '../../style/About.css';
 import myImg from "../../assets/my-photo.png"
+import myImgBg from "../../assets/2.png"
+
 import useFetchData from "../hooks/useFetchData"
 
 const About = () => {
@@ -32,6 +34,7 @@ const About = () => {
         </div>
         <div className='right'>
           <img src={myImg} className='my-img' loading="lazy" alt="my-photo"></img>
+          {/* <img src={myImgBg} className='my-img-bg' loading="lazy" alt="my-photo"></img> */}
         </div>
       </div>
     </div>
