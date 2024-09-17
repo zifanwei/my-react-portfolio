@@ -42,10 +42,6 @@
     justify-content: center;
 }
 
-.highlight {
-    color: var(--tertiary-colour);
-}
-
 .my-img {
     max-width: 70%;
     height: auto;

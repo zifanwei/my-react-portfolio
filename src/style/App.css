@@ -52,3 +52,7 @@ html {
     color: var(--secondary-colour);
     font-size: 12px;
 }
+
+.highlight {
+  color: var(--tertiary-colour);
+}
