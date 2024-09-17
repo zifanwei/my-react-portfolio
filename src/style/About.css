@@ -52,12 +52,13 @@
     background-color: transparent;
     color: var(--tertiary-colour);
     border-color: var(--tertiary-colour);
+    box-shadow: 0 5px 0 var(--tertiary-colour);
 }
 
 .lets-talk-btn:hover {
     border-color: var(--tertiary-colour);
-    background-color: var(--tertiary-colour);
-    color: var(--primary-colour);
+    box-shadow: 0 2px 0 var(--tertiary-colour);
+    transform: translateY(3px);
 }
 
 @media (max-width: 1000px) {

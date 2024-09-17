@@ -3,14 +3,14 @@
     top: 0;
     width: 100%;
     background: var(--menu-bg-colour);
-    box-shadow: 0 4px 8px var(--menu-box-shadow);
+    box-shadow: 0 4px 5px var(--menu-box-shadow);
     transition: padding 0.3s linear, margin 0.3s linear, font-size 0.3s ease, letter-spacing 0.3s ease;
     padding: 20px 0;
     z-index: 100;
 }
   
 .menu-shrink {
-    padding: 7px 0;
+    padding: 15px 0;
 }
 
 .menu-shrink .menu-list .menu-item a {
