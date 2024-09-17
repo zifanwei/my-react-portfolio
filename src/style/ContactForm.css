@@ -1,7 +1,7 @@
 .contact-form-container {
     margin: 0;
     font-size: 17px;
-    border: 2px solid var(--tertiary-colour-bottomn);
+    border: 2px solid var(--tertiary-colour);
     border-radius: 30px;
 }
 
@@ -59,9 +59,9 @@
 }
 
 .submit-button {
-    background-color: var(--tertiary-colour-bottomn);
+    background-color: var(--tertiary-colour);
     color: var(--primary-colour);
-    border: var(--tertiary-colour-bottomn);
+    border: var(--tertiary-colour);
     border-style: solid;
     border-width: 2px;
     cursor: pointer;
@@ -75,10 +75,10 @@
 
 .submit-button:hover:not(:disabled) {
     background-color: transparent;
-    border: var(--tertiary-colour-bottomn);
+    border: var(--tertiary-colour);
     border-style: solid;
     border-width: 2px;
-    color: var(--tertiary-colour-bottomn);
+    color: var(--tertiary-colour);
 }
 
 .form-actions {

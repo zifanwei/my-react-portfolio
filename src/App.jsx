@@ -3,6 +3,7 @@ import Menu from './components/menu/Menu';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
 import Projects from './components/projects/Projects';
+import Skills from './components/skills/Skills';
 import More from './components/more/More';
 import Contact from './components/contact/Contact';
 import './style/App.css';
@@ -55,19 +56,23 @@ const App = () => {
           <About />
         </section>
         <section id="experience">
-          <h3 className='app-subtitles'>My Experience</h3>
+          <h2 className='app-subtitles'>My Experience</h2>
           <Experience />
         </section>
         <section id="projects">
-          <h3 className='app-subtitles'>My Projects</h3>
+          <h2 className='app-subtitles'>My Projects</h2>
           <Projects />
         </section>
+        <section id="skills">
+          <h2 className='app-subtitles'>My Skills</h2>
+          <Skills />
+        </section>
         <section id="more">
-          <h3 className='app-subtitles'>More About Me ..</h3>
+          <h2 className='app-subtitles'>More About Me ..</h2>
           <More />
         </section>
         <section id="contact">
-          <h3 className='app-subtitles'>Contact Me</h3>
+          <h2 className='app-subtitles'>Contact Me</h2>
           <Contact />
         </section>
       </div>

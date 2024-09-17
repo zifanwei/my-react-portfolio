@@ -13,7 +13,7 @@ const Education = () => {
             <span>{edu['time-period']}</span>
           </div>
           <div className='education-content'>
-            <h3>🎓 {edu.degree}</h3>
+            <h2>🎓 {edu.degree}</h2>
             <p>
               <img src={process.env.PUBLIC_URL + "/icon/icons8-university-48.png"} alt="" class="img-icon"></img>
             {edu.university}</p>

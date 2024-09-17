@@ -1,0 +1,66 @@
+.skills-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills-sub-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.skills-section,
+.technical-skills,
+.language-skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 60px;
+}
+
+h3 {
+    margin: 50px 0;
+}
+
+.technical-skill-content {
+    background-color: var(--primary-colour);
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.lanaguage-level {
+    font-weight: 300;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.skill-name {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px; 
+}
+
+.skill-bar {
+    flex: 2;
+    background-color: var(--highlight-gray);
+    border-radius: 10px;
+    display: flex;
+    height: 10px;
+}
+
+.skill-progress {
+    background-color: var(--tertiary-colour);
+    border-radius: 10px;
+    height: 100%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}

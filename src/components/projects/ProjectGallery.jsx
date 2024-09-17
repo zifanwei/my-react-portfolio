@@ -15,7 +15,7 @@ const ProjectGallery = () => {
             className="project-img"
           />
           <div className="project-details">
-            <h3>{project.name}</h3>
+            <h2>{project.name}</h2>
             <p>{project.summary}</p>
             <p><strong>Technologies:</strong> {project.technologies}</p>
             <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a> | 

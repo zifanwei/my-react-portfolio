@@ -148,39 +148,29 @@
             },
             {
                 "name": "JavaScript",
-                "level": 10
+                "level": 8
             },
             {
                 "name": "CSS",
-                "level": 10
+                "level": 8
             },
             {
                 "name": "HTML",
-                "level": 5
+                "level": 8
             },
             {
-                "name": "SQL/PostgreSQL",
-                "level": 5
+                "name": "SQL",
+                "level": 8
             }
         ],
-        "front-end": [
-            {
-                "name": "React.js",
-                "level": 10
-            },
-            {
-                "name": "Vue.js",
-                "level": 3
-            }
-        ],
-        "back-end": [
+        "Back-end Development": [
             {
                 "name": "Spring Boot",
                 "level": 10
             },
             {
                 "name": "Maven",
-                "level": 5
+                "level": 7
             },
             {
                 "name": "Redis",
@@ -188,21 +178,21 @@
             },
             {
                 "name": "Django",
-                "level": 10
+                "level": 8
             }
         ],
-        "data": [
+        "Data Analysis": [
             {
                 "name": "Pandas",
                 "level": 10
             },
             {
                 "name": "Numpy",
-                "level": 5
+                "level": 8
             },
             {
                 "name": "Matplotlib",
-                "level": 6
+                "level": 7
             },
             {
                 "name": "Seaborn",
@@ -214,13 +204,13 @@
             },
             {
                 "name": "d3.js",
-                "level": 4
+                "level": 5
             }
         ],
-        "ml": [
+        "Machine Learning": [
             {
                 "name": "scikit-learn",
-                "level": 10
+                "level": 9
             },
             {
                 "name": "Tensorflow",
@@ -231,7 +221,17 @@
                 "level": 5
             }
         ],
-        "os": [
+        "Front-end Development": [
+            {
+                "name": "React.js",
+                "level": 8
+            },
+            {
+                "name": "Vue.js",
+                "level": 3
+            }
+        ],
+        "Operating Systems": [
             {
                 "name": "MacOS",
                 "level": 10
@@ -242,8 +242,57 @@
             },
             {
                 "name": "Linux",
-                "level": 4
+                "level": 5
             }
         ]
-    }
+    },
+    "skillSummary": [
+        {
+            "title":"Creative Direction",
+            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "icon": "/icon/icons8-grinning-face-48.png"
+        },
+        {
+            "title":"Creative Direction",
+            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "icon": "/icon/icons8-grinning-face-48.png"
+        },
+        {
+            "title":"Creative Direction",
+            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "icon": "/icon/icons8-grinning-face-48.png"
+        },
+        {
+            "title":"Creative Direction",
+            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "icon": "/icon/icons8-grinning-face-48.png"
+        },
+        {
+            "title":"Creative Direction",
+            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "icon": "/icon/icons8-grinning-face-48.png"
+        },
+        {
+            "title":"Creative Direction",
+            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "icon": "/icon/icons8-grinning-face-48.png"
+        }
+    ],
+    "languageSkills": [
+        {
+            "language":"🇨🇳 Chinese (Mandarin)",
+            "level": "Native Speaker",
+            "description": "Proficient in reading, writing, listening, and speaking under academic and business situations."
+        },
+        {
+            "language":"🇬🇧 English",
+            "level": "Fluent",
+            "description": "Proficient in reading, writing, listening, and speaking under both academic and business situations."
+        },
+        {
+            "language":"🇳🇱 Dutch",
+            "level": "Beginner",
+            "description": "Familiar with a few basic phrases and words, actively progressing in learning."
+        }
+    ]
 }
