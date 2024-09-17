@@ -8,8 +8,8 @@
 
 .photo-item {
   position: relative;
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   margin: 0;
 }
 
@@ -53,8 +53,8 @@
   }  
 
   .photo-item {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
   }
   
 }
@@ -64,7 +64,7 @@
     padding: 0 10px;
   }  
   .photo-item {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
   }
 }

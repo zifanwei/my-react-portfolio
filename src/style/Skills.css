@@ -15,15 +15,21 @@
 .skills-section,
 .technical-skills,
 .language-skills {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
     gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 h3 {
     margin: 50px 0;
 }
 
+.skill-summary-item, 
+.skill-category,
+.language-item {
+    width: 270px;
+}
 .technical-skill-content {
     background-color: var(--primary-colour);
     border-radius: 30px;
@@ -45,6 +51,7 @@ h3 {
     flex: 1;
     text-align: left;
     margin-right: 10px; 
+    font-size: 12.5px;
 }
 
 .skill-bar {
@@ -52,7 +59,7 @@ h3 {
     background-color: var(--highlight-gray);
     border-radius: 10px;
     display: flex;
-    height: 10px;
+    height: 8px;
 }
 
 .skill-progress {
