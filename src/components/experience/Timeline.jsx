@@ -25,7 +25,7 @@ const Timeline = () => {
           <div className="timeline-date">
             <span>{exp['time-period']}</span>
           </div>
-          <div className="timeline-content card-with-shadow">
+          <div className="timeline-content card-with-shadow hover-scale">
             <h2>👩🏻‍💻 {exp['job-title']} - 💼 {exp['company']}</h2>
             {expandedItems.includes(index) ? (
               <p>{exp['detail'].join(' ')}</p>

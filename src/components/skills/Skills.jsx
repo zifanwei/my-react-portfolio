@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="skills-container">
             <div className='skills-sub-container'>
                 <div>
-                    <div className="skills-section card-2">
+                    <div className="skills-section card-2 hover-scale">
                         {skillSummary.map((item, index) => (
                             <div className="skill-summary-item" key={index}>
                                 <img src={process.env.PUBLIC_URL + item.icon}
@@ -33,7 +33,7 @@ const Skills = () => {
                     <h3>Technical Skills</h3>
                     <div className="technical-skills">
                         {skillSections.map(([category, skills, index]) => (
-                            <div className='skill-category card-with-shadow' key={index}>
+                            <div className='skill-category card-with-shadow hover-scale' key={index}>
                                 <h4>{category}</h4>
                                 <div className='technical-skill-content'>
                                     {skills.map((skillItem, idx) => (
@@ -49,7 +49,7 @@ const Skills = () => {
 
                 <div>
                     <h3>Language Skills</h3>
-                    <div className="language-skills card-2">
+                    <div className="language-skills card-2 hover-scale">
                         {languageSkills.map((item, index) => (
                             <div className="language-item" key={index}>
                                 <h4>{item.language}</h4>

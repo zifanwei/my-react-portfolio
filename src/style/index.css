@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
+  cursor: default;
 }
 
 code {
@@ -40,16 +41,25 @@ h2 {
 }
 
 .card-with-shadow {
-  border-radius: 30px;
   background-color: var(--primary-colour);
+}
+
+.card-with-shadow, .card-2 {
+  border-radius: 30px;
   box-shadow: 0 4px 8px var(--item-box-shadow);
 }
 
+.hover-scale {
+  transition: 0.2s ease;
+}
+
+.hover-scale:hover{
+  transform: scale(102%);
+}
+
 .card-2 {
-  border-radius: 30px;
-  background: var(--contact-form-background);
+  background: var(--card-2-bg);
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 8px var(--item-box-shadow);
 }
 
 .img-icon {

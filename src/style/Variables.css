@@ -3,15 +3,15 @@
   --secondary-colour: #4b4b4b;
   --tertiary-colour: #FF007A;
   --background-colour-gradient: linear-gradient(135deg, #ffffff, #fee8f3, hsl(219, 100%, 89%), #fffacf);
-  --menu-bg-colour: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), #ffffff80);
-  --menu-box-shadow: rgba(255, 255, 255, 0.5);
+  --menu-bg-colour: linear-gradient(to bottom, rgba(255, 255, 255), #ffffff90);
+  --menu-box-shadow: rgba(211, 211, 211, 0.3);
   --item-box-shadow: #76767661;
   --highlight-gray: #afafaf53;
   --disabled: #d7d7d7;
   --photo-overlay: rgba(255, 255, 255, 0.7);
   --tooltip-bg: #f8f8f8d2;
   --tooltip-box-shadow: rgba(121, 121, 121, 0.1);
-  --contact-form-background: linear-gradient(160deg, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.1));
+  --card-2-bg: linear-gradient(160deg, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.1));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,14 +20,14 @@
     --secondary-colour: #fefefe;
     --tertiary-colour: #ff85c8;
     --background-colour-gradient: linear-gradient(135deg, #595454, #684f59, hsl(230, 12%, 37%), #4b4f42);
-    --menu-bg-colour: linear-gradient(to bottom, rgb(55, 52, 52, 0.9), #3f3a3a75);
-    --menu-box-shadow: rgba(53, 53, 53, 0.4);
+    --menu-bg-colour: linear-gradient(to bottom, #333333, #33333390);
+    --menu-box-shadow: rgba(31, 29, 29, 0.45);
     --item-box-shadow: rgba(0, 0, 0, 0.4);
     --highlight-gray: #e5e5e574;
     --disabled: #606060;
     --photo-overlay: rgba(49, 46, 46, 0.7);
     --tooltip-bg: rgba(0, 0, 0, 0.725);
     --tooltip-box-shadow: rgba(54, 51, 51, 0.1);
-    --contact-form-background: linear-gradient(45deg, rgba(42, 39, 39, 0.4),rgba(43, 39, 39, 0.1));
+    --card-2-bg: linear-gradient(45deg, rgba(42, 39, 39, 0.4),rgba(43, 39, 39, 0.1));
   }
 }
