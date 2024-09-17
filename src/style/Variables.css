@@ -7,7 +7,6 @@
   --menu-box-shadow: rgba(255, 255, 255, 0.4);
   --item-box-shadow: #76767661;
   --highlight-gray: #afafaf53;
-  --danger: #df1919;
   --disabled: #d7d7d7;
   --photo-overlay: rgba(255, 255, 255, 0.7);
   --tooltip-bg: #f8f8f8d2;
@@ -15,7 +14,6 @@
   --contact-form-background: linear-gradient(160deg, rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.1));
 }
 
-/* Dark mode variables */
 @media (prefers-color-scheme: dark) {
   :root {
     --primary-colour: #333333;
@@ -26,7 +24,6 @@
     --menu-box-shadow: rgba(53, 53, 53, 0.4);
     --item-box-shadow: rgba(0, 0, 0, 0.4);
     --highlight-gray: #e5e5e574;
-    --danger: #ff7373;
     --disabled: #606060;
     --photo-overlay: rgba(49, 46, 46, 0.7);
     --tooltip-bg: rgba(0, 0, 0, 0.725);

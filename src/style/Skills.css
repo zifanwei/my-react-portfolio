@@ -16,7 +16,7 @@
 .technical-skills,
 .language-skills {
     display: flex;
-    gap: 60px;
+    gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -29,11 +29,11 @@ h3 {
 .skill-category,
 .language-item {
     width: 270px;
+    padding: 15px;
+
 }
 
 .technical-skill-content {
-    background-color: var(--primary-colour);
-    border-radius: 30px;
     padding: 15px;
 }
 

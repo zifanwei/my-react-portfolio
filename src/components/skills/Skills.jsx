@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="skills-container">
             <div className='skills-sub-container'>
                 <div>
-                    <div className="skills-section">
+                    <div className="skills-section card-2">
                         {skillSummary.map((item, index) => (
                             <div className="skill-summary-item" key={index}>
                                 <img src={process.env.PUBLIC_URL + item.icon}
@@ -49,7 +49,7 @@ const Skills = () => {
 
                 <div>
                     <h3>Language Skills</h3>
-                    <div className="language-skills">
+                    <div className="language-skills card-2">
                         {languageSkills.map((item, index) => (
                             <div className="language-item" key={index}>
                                 <h4>{item.language}</h4>

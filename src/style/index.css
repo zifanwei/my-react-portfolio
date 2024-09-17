@@ -45,6 +45,13 @@ h2 {
   box-shadow: 0 4px 8px var(--item-box-shadow);
 }
 
+.card-2 {
+  border-radius: 30px;
+  background: var(--contact-form-background);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px var(--item-box-shadow);
+}
+
 .img-icon {
   width: 20px;
   height: 20px;

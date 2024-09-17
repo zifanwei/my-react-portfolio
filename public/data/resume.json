@@ -221,7 +221,7 @@
                 "level": 5
             }
         ],
-        "Front-end Development": [
+        "Front-end & UI": [
             {
                 "name": "React.js",
                 "level": 8
@@ -229,6 +229,10 @@
             {
                 "name": "Vue.js",
                 "level": 3
+            },
+            {
+                "name": "Figma",
+                "level": 8
             }
         ],
         "Operating Systems": [
@@ -248,33 +252,33 @@
     },
     "skillSummary": [
         {
-            "title":"Creative Direction",
-            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "title":"Full-Stack Web Development",
+            "description":"Proficiently develop both Front-end and Back-end functionalities for web applications.",
             "icon": "/icon/icons8-grinning-face-48.png"
         },
         {
-            "title":"Creative Direction",
-            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "title":"UI/UX Design",
+            "description":"Empathise with users, design interfaces and workflows that ensure best user experience.",
             "icon": "/icon/icons8-grinning-face-48.png"
         },
         {
-            "title":"Creative Direction",
-            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "title":"Creative Solutions",
+            "description":"Continuously learning of trending technologies and designs and apply them appropriately in projects.",
             "icon": "/icon/icons8-grinning-face-48.png"
         },
         {
-            "title":"Creative Direction",
-            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "title":"Independent Problem Solving",
+            "description":"Strong problem-solving skills with a knack for finding optimised solutions in various situations.",
             "icon": "/icon/icons8-grinning-face-48.png"
         },
         {
-            "title":"Creative Direction",
-            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "title":"Supportive Team Member",
+            "description":"Active and supportive in collaborative environments, always willing to contribute ideas and effort.",
             "icon": "/icon/icons8-grinning-face-48.png"
         },
         {
-            "title":"Creative Direction",
-            "description":"Leading communication design, interactive design, and concept forward of creative work",
+            "title":"Effective Communicator",
+            "description":"Good at grasping key points in conversations and conveying messages clearly and concisely.",
             "icon": "/icon/icons8-grinning-face-48.png"
         }
     ],

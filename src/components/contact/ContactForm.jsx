@@ -41,7 +41,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="contact-form-container">
+        <div className="contact-form-container card-2">
             <form className='contact-form' onSubmit={sendEmail}>
                 <div className='contact-form-info'>
                     <div className="form-group">
