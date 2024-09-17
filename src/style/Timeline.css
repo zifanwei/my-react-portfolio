@@ -18,7 +18,6 @@
     text-align: left;
     padding: 0 0 10px 20px;
     color: var(--secondary-colour);
-    font-size: 14px;
 }
   
 .timeline-content {
@@ -38,7 +37,6 @@
   
 .timeline-content p {
     margin: 10px 0;
-    font-size: 14px;
 }
   
 .show-more {

@@ -30,7 +30,6 @@
 }
 
 .intro p {
-    font-size: 14px;
     padding: 25px 0;
 }
 
@@ -51,14 +50,11 @@
     max-width: 70%;
     height: auto;
     border-radius: 50%;
-    /* background-color: #ffffff53; */
-    /* transition: transform 0.3s linear; */
 }
 
 .lets-talk-btn {
     background-color: transparent;
     color: var(--tertiary-colour);
-    font-size: 17px;
     border-color: var(--tertiary-colour);
 }
 

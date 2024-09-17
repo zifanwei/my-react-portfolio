@@ -65,7 +65,6 @@
     border-style: solid;
     border-width: 2px;
     cursor: pointer;
-    font-size: 17px;
 }
 
 .submit-button:disabled {
