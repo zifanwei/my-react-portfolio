@@ -10,16 +10,20 @@ const ProjectGallery = () => {
       {data && data.projects && data.projects.map((project, index) => (
         <div key={index} className="project-card card-with-shadow hover-scale">
           <img
-            src={process.env.PUBLIC_URL +`/project/${project['img-url']}`}
+            src={process.env.PUBLIC_URL + `/project/${project['img-url']}`}
             alt={project.name}
             className="project-img"
           />
           <div className="project-details">
             <h2>{project.name}</h2>
-            <p>{project.summary}</p>
             <p><strong>Technologies:</strong> {project.technologies}</p>
-            <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a> | 
-            <a href={project['live-demo']} target="_blank" rel="noopener noreferrer">Live Demo</a>
+            {project.github && (
+              <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
+            )}
+            {project['live-demo'] && (
+              <a href={project['live-demo']} target="_blank" rel="noopener noreferrer">Live Demo</a>
+            )}
+            <p>{project.summary}</p>
             <ul>
               {project.detail.map((detail, i) => (
                 <li key={i}>{detail}</li>
